@@ -1,0 +1,1 @@
+psql -d "Nom de la base" -a -f /home/AJE/scriptSQL.sql >  /home/AJE/log.log

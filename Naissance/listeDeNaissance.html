@@ -1,0 +1,58 @@
+    <link rel="stylesheet" type="text/css" href="./easyui/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="./easyui/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="./easyui/demo/demo.css">
+    <script type="text/javascript" src="./easyui/jquery.min.js"></script>
+    <script type="text/javascript" src="./easyui/jquery.easyui.min.js"></script>
+<div id='page_pronos' style='margin: 0px 65px;'>
+
+  <span class='titre_page'>Pronos<span>
+<div>
+<img alt="" src="./global/images/barre_bleue.png" style="border:none;"> 
+</div>
+
+
+<br>
+<fieldset><legend align="left">Liste de naissance</legend>
+	si vous souhaitez être sponsors ! 
+<center>
+
+    <table id="dg1" class="easyui-datagrid" title="POUR SA CHAMBRE :" style="width:700px"
+            data-options="rownumbers:true,singleSelect:false,url:'datagrid_data1.json',method:'get'">
+        <thead>
+            <tr>
+                <th data-options="field:'ck',checkbox:true">Je sponsirise!</th>
+                <th data-options="field:'itemid',width:80">Produit</th>
+                <th data-options="field:'productid',width:100">image</th>
+                <th data-options="field:'listprice',width:80,align:'right'">Url</th>
+            </tr>
+        </thead>
+    </table>
+
+<br>
+    <table id="dg2" class="easyui-datagrid" title="POUR SA TOILETTE :" style="width:700px;"
+            data-options="rownumbers:true,singleSelect:false,url:'datagrid_data1.json',method:'get'">
+        <thead>
+            <tr>
+                <th data-options="field:'ck',checkbox:true">Je sponsirise!</th>
+                <th data-options="field:'itemid',width:80">Produit</th>
+                <th data-options="field:'productid',width:100">image</th>
+                <th data-options="field:'listprice',width:80,align:'right'">Url</th>
+            </tr>
+        </thead>
+    </table>
+<br>
+    <table id="dg2" class="easyui-datagrid" title="POUR SON ÉVEIL :" style="width:700px"
+            data-options="rownumbers:true,singleSelect:false,url:'datagrid_data1.json',method:'get'">
+        <thead>
+            <tr>
+                <th data-options="field:'ck',checkbox:true">Je sponsirise!</th>
+                <th data-options="field:'itemid',width:80">Produit</th>
+                <th data-options="field:'productid',width:100">image</th>
+                <th data-options="field:'listprice',width:80,align:'right'">Url</th>
+            </tr>
+        </thead>
+    </table>
+</center>
+</fieldset>
+
+</div>
