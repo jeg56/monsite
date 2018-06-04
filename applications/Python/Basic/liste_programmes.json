@@ -1,0 +1,13 @@
+{
+	"programme": [
+	{
+		"titre": "Les basics:",
+		"description": "Si-alors-Sinon",
+		"chemin": "./applications/Python/Basic/programmes/Si-alors-Sinon.txt"
+	},
+	{
+		"description": "Les boucles",
+		"chemin": "./applications/Python/Basic/programmes/Boucles.txt"
+	}
+	]
+}

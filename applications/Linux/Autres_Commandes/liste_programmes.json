@@ -1,0 +1,16 @@
+{
+	"programme": [
+	{
+		"titre": "Autres commandes  :",
+		"description": "Taré les fichiers",
+		"chemin": "./applications/Linux/Autres_Commandes/programmes/1-tar.txt"
+	},{
+		"description": "Extraire dans un fichier",
+		"chemin": "./applications/Linux/Autres_Commandes/programmes/2-sed.txt"
+	},{
+		"titre": "Exemple de shell :",
+		"description": "shell necessitant 1 paramètre d'entrée ici un chemin: ./monShell.sh c:\\programme\\ ",
+		"chemin": "./applications/Linux/Autres_Commandes/programmes/3-exemple.txt"
+	}
+	]
+}
